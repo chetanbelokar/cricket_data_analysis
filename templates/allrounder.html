@@ -1,0 +1,18 @@
+<html>
+   <body>
+
+      <h2> Enter criteries for comparison</h2><br>
+
+      <form method="GET", action="{{url_for('rounder')}}">
+         <b> Batting Position :  <input type="text", name='a', placeholder="Greater than or less than any number"> <br><br>
+            Minimum innings Played :  <input type="text", name='b', placeholder="greater than any number"> <br><br>
+          Minimum Batting Average :  <input type="text", name='c', placeholder="greater than any number"> <br><br>
+          Minimum BAtting Strike Rate :  <input type="text", name='d', placeholder="greater than any number"> <br><br>
+          Minimum Innings bowled : <input type="text", name='e', placeholder="greater than any number"> <br><br>
+          Max Bowling Economy : <input type="text", name='f', placeholder="less than any number"> <br><br>
+          Bowling Strike Rate : <input type="text", name='g', placeholder="less than any number"> <br><br><br></b>
+          <input type="submit" , value='Show' >
+      </form>
+      <a href='/'>go back to home page</a>
+   </body>
+</html>
